@@ -7,7 +7,7 @@ package proyecto_modulo6.grupo;
 
 /**
  *
- * @author Felix
+ * @author EVELIN
  */
 public abstract class persona{
     public String nombre;
