@@ -5,9 +5,11 @@
  */
 package proyecto_modulo6;
 
+import proyecto_modulo6.grupo.Doctor;
+
 /**
  *
- * @author Felix
+ * @author EVELIN
  */
 public class Proyecto_modulo6 {
 
@@ -15,7 +17,10 @@ public class Proyecto_modulo6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Doctor Doctor=new Doctor();
+       System.out.println(Doctor.especialidad());
+       Doctor.imprimirNombre();
+       Doctor.imprimirIdentidad();
     }
     
 }
